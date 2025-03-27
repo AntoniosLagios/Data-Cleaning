@@ -101,7 +101,6 @@ WHERE (company, location, industry, total_laid_off, percentage_laid_off, `date`,
 
 ALTER TABLE world_layoffs.layoffs_staging ADD row_num INT;
 
-
 SELECT *
 FROM world_layoffs.layoffs_staging
 ;
@@ -149,7 +148,6 @@ SELECT `company`,
 
 DELETE FROM world_layoffs.layoffs_staging2
 WHERE row_num >= 2;
-
 
 
 -- 2. Standardize Data
