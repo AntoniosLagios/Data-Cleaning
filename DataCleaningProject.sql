@@ -2,14 +2,6 @@
 
 --First we create the database
 
-
-
-
-
-
-
-
-
 SELECT * 
 FROM world_layoffs.layoffs;
 
