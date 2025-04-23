@@ -18,7 +18,6 @@ SELECT * FROM world_layoffs.layoffs;
 -- 3. Look at null values and see what 
 -- 4. remove any columns and rows that are not necessary - few ways
 
-
 -- 1. Remove Duplicates
 
 # First let's check for duplicates
@@ -270,7 +269,6 @@ FROM world_layoffs.layoffs_staging2;
 -- I like having them null because it makes it easier for calculations during the EDA phase
 
 -- so there isn't anything I want to change with the null values
-
 
 -- 4. remove any columns and rows we need to
 
