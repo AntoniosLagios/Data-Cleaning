@@ -150,7 +150,6 @@ SELECT `company`,
 DELETE FROM world_layoffs.layoffs_staging2
 WHERE row_num >= 2;
 
-
 -- 2. Standardize Data
 
 SELECT * 
@@ -261,7 +260,6 @@ MODIFY COLUMN `date` DATE;
 
 SELECT *
 FROM world_layoffs.layoffs_staging2;
-
 
 -- 3. Look at Null Values
 
