@@ -22,6 +22,7 @@ SELECT * FROM world_layoffs.layoffs;
 
 # First let's check for duplicates
 
+	
 SELECT *
 FROM world_layoffs.layoffs_staging
 ;
