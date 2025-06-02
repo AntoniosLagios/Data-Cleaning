@@ -54,6 +54,7 @@ WHERE company = 'Oda'
 -- it looks like these are all legitimate entries and shouldn't be deleted. We need to really look at every single row to be accurate
 
 -- these are our real duplicates 
+
 SELECT *
 FROM (
 	SELECT company, location, industry, total_laid_off,percentage_laid_off,`date`, stage, country, funds_raised_millions,
