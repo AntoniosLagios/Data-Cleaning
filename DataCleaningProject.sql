@@ -47,6 +47,7 @@ WHERE
 	row_num > 1;
     
 -- let's just look at oda to confirm
+	
 SELECT *
 FROM world_layoffs.layoffs_staging
 WHERE company = 'Oda'
